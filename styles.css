@@ -1,0 +1,113 @@
+body {
+    background-image: url("C:\Users\jankr\Downloads\bg (2).png");
+    font-family: Arial, sans-serif;
+    background-color: #34283C;
+    margin: 0;
+    padding: 0;
+}
+
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.team-member {
+    background-color: #333;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px rgb(255, 255, 255);
+    text-align: center;
+    width: 275px;
+    color: white;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid white;
+}
+
+.team-member h1 {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    margin: 0;
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 0.1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.team-member h3 {
+    padding-top: 10px;
+    margin: 0;
+    bottom: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.team-member p {
+    color: #ddd;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 10px;
+    bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.team-member a {
+    display: center;
+    text-align: center;
+    padding: 0;
+    margin-top: auto;
+    width: 150px;
+    font-size: smaller;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #444444e1;
+    margin: 5% auto;
+    padding: 20px;
+    border: 0;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 600px;
+    color: white;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
